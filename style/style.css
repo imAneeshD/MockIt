@@ -43,6 +43,7 @@ body .navbar {
   padding: 10px 30px;
   width: calc(100% - 60px);
   position: fixed;
+  height: 40px;
 }
 body .navbar .navbar-right {
   display: flex;
@@ -135,6 +136,7 @@ body .body-section {
   width: calc(100% - 60px);
 }
 body .body-section .hero-section {
+  margin-top: 3rem !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -253,14 +255,16 @@ body .features-section .features .card-container .cards {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  width: 100%;
 }
 body .features-section .features .card-container .cards .card {
-  padding: 10px;
+  padding: 20px;
   background-color: #FFFFFF;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
   cursor: pointer;
+  width: 90%;
 }
 body .features-section .features .card-container .cards .card:hover {
   background-color: #edf5ff;
