@@ -3,6 +3,12 @@ const APP_CONFIG = {
     version: "v1.0.0"
 };
 const currentYear = new Date().getFullYear(); // Get the current year dynamically
+var logo = document.getElementById("logo");
+
+
+logo.addEventListener("click", function () {
+    window.location.href = "./index.html";
+})
 
 document.getElementById("app-version").innerText =
     `${APP_CONFIG.version} © ${currentYear} MockIt. All rights reserved`;

@@ -134,6 +134,7 @@ body .navbar-small {
 body .body-section {
   padding: 0 30px;
   width: calc(100% - 60px);
+  margin-top: calc(100% - 40px);
 }
 body .body-section .hero-section {
   margin-top: 3rem !important;
@@ -251,6 +252,13 @@ body .features-section .features .heading p {
   margin-top: 10px;
   line-height: 1.6;
 }
+body .features-section .features .card-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 body .features-section .features .card-container .cards {
   display: flex;
   justify-content: space-between;
@@ -290,7 +298,7 @@ body .features-section .features .card-container .cards .card .card-text p {
   line-height: 1.6;
 }
 body .features-section .interview-type {
-  margin: 30px 0;
+  margin: 40px 0;
 }
 body .features-section .interview-type .interview-type-content {
   text-align: center;
