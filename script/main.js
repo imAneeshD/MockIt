@@ -26,4 +26,5 @@ document.addEventListener("DOMContentLoaded", function () {
     closeBtn.addEventListener("click", function () {
         navbarSmall.classList.remove("open");
     });
+
 });

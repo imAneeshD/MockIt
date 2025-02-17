@@ -86,6 +86,7 @@ body .navbar .navbar-right .navbar-links ul li a {
 }
 body .navbar .navbar-left {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 body .navbar .navbar-left .navbar-sign-in {
@@ -444,7 +445,8 @@ body .pricing .pricing-card ul li {
   padding: 5px 0;
   color: #444;
 }
-body .pricing .pricing-card button {
+body .pricing .pricing-card a {
+  text-decoration: none;
   background: #2A7DE1;
   color: white;
   font-size: 16px;
@@ -455,7 +457,7 @@ body .pricing .pricing-card button {
   margin-top: 15px;
   transition: 0.3s;
 }
-body .pricing .pricing-card button:hover {
+body .pricing .pricing-card a:hover {
   background: #0056b3;
 }
 body .get-started {
@@ -609,7 +611,24 @@ body .about-body-section .hero-section {
   height: 100dvh;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
+  .navbar .navbar-right .navbar-links ul li a {
+    font-size: 14px !important;
+  }
+  .navbar .navbar-left .navbar-sign-in a {
+    font-size: 14px !important;
+  }
+  .navbar .navbar-left .navbar-get-started {
+    width: 90px !important;
+  }
+  .navbar .navbar-left .navbar-get-started .get-started-btn {
+    width: 90px !important;
+  }
+  .navbar .navbar-left .navbar-get-started a {
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 1000px) {
   .navbar {
     padding: 10px 20px;
   }
